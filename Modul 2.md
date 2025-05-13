@@ -66,6 +66,7 @@ A Data Warehouse is a centralized repository designed for analytics and business
 - Extract data from multiple sources
 - Transform it into a clean, usable format
 - Load it into a repository
+  
 🔹 Related Concepts
 - Data Marts: Subsets of data warehouses
 - Data Lakes: Store raw and unstructured data
@@ -79,3 +80,5 @@ Designed for very large datasets. Uses distributed computing and storage. Suppor
 - Improved reporting and analysis
 - Credible data access
 - Efficient long-term storage (archiving)
+
+## 2.2 RDBMS
