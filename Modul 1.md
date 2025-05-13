@@ -117,5 +117,10 @@ In this lesson, I have learned the following information: the roll of Data Analy
 ## 1.6 Practice test
 ![image](https://github.com/user-attachments/assets/e0f9697c-de3e-493a-98ed-31860bde4dd2)
 ![image](https://github.com/user-attachments/assets/f41fb85d-d8c9-4aec-9f81-28b4d001d757)
+## 1.7 Graded quiz
+![image](https://github.com/user-attachments/assets/3d662b5d-ffdf-42f9-a870-336debb06dcd)
+![image](https://github.com/user-attachments/assets/d5fd9eaf-d432-4523-a8d1-1dd54c006ab4)
+![image](https://github.com/user-attachments/assets/0f8f5391-244f-49ba-b55f-1dd4af748359)
+![image](https://github.com/user-attachments/assets/9d292c31-962a-4fb4-bda3-d29171513c63)
 
   
