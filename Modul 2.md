@@ -32,3 +32,50 @@ A data analyst ecosystem includes the infrastructure, software, tools, framework
 ![image](https://github.com/user-attachments/assets/02d09616-23f2-4ac1-96c7-d269f8f60961)
 ![image](https://github.com/user-attachments/assets/e2b52eb9-6b5a-48e7-9017-e1d56ac305bc)
 ![image](https://github.com/user-attachments/assets/dc657eeb-4265-476a-a0ed-784811a51bde)
+
+## 1.7 Graded quiz
+![image](https://github.com/user-attachments/assets/bf41a77d-72be-427f-88f4-56bb85161649)
+![image](https://github.com/user-attachments/assets/54ac5db0-7f0d-49e2-9be9-62fb5c6b58cc)
+![image](https://github.com/user-attachments/assets/4e4fc15a-efc8-4214-a310-78b60ede56e0)
+![image](https://github.com/user-attachments/assets/bce70a49-6a46-4169-be42-8de88be60c23)
+![image](https://github.com/user-attachments/assets/6fb2b52b-50aa-4ac0-98e3-a9e75ac1cb72)
+---
+# II. Understanding data repositories and big data platforms
+## 2.1 Overview of Data repositories
+ 
+📦 A data repository is a system where data is collected, organized, and isolated for use in business operations, reporting, and analysis. It may range from a small to a large-scale infrastructure and can include: **Databases - Data Warehouses - Big Data Stores**
+
+### 2.1.1 🗃️ Databases
+A database is a structured collection of data that supports: Input-Storage-Search & Retrieval-Modification
+A Database Management System (DBMS) is a set of programs used to manage and interact with the database. ➕ Querying is used to extract specific information, e.g., retrieving customers inactive for 6+ months.
+
+🧱 Types of Databases
+1. Relational Databases (RDBMS)
+- Data organized in tables (rows & columns)
+- Structured with a fixed schema
+- Uses SQL (Structured Query Language)
+- Optimized for complex queries and large data volumes
+2. Non-Relational Databases (NoSQL)
+- Schema-less, flexible, scalable
+- Built for handling big data, IoT, social media
+- Allows storage of varied and fast-paced data
+### 2.1.2 🏢 Data Warehouse
+A Data Warehouse is a centralized repository designed for analytics and business intelligence.
+
+🔁 ETL Process
+- Extract data from multiple sources
+- Transform it into a clean, usable format
+- Load it into a repository
+🔹 Related Concepts
+- Data Marts: Subsets of data warehouses
+- Data Lakes: Store raw and unstructured data
+- Traditional data warehouses used relational databases, but modern warehouses may use NoSQL systems as well.
+  
+### 2.1.3 🌐 Big Data Stores
+Designed for very large datasets. Uses distributed computing and storage. Supports scalability and high-speed processing
+
+✅ Benefits of Data Repositories
+- Centralized and isolated data
+- Improved reporting and analysis
+- Credible data access
+- Efficient long-term storage (archiving)
