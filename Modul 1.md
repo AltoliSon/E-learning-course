@@ -1,4 +1,4 @@
-# what is Data Analytics?
+# What is Data Analytics?
 ## Learning objectives
 - Explain the different components of a modern data ecosystem.
 - Describe and differentiate between the role different data professionals play in a modern data ecosystem.
@@ -6,9 +6,8 @@
 - Describe the responsibilities and skillsets of a Data Analyst.
 - Summarize a typical day in the life of a Data Analyst.
 ---
-# Modern data ecosystem and the role of data analytics
-## Course introduction
-# Welcome to the Introductory Course on Data Analytics
+# I. Modern data ecosystem and the role of data analytics
+## 1.1 Course introduction
 
 Welcome to this **introductory course on Data Analytics**, the first in a series of courses designed to prepare you for a career as a **junior data analyst**.
 
@@ -66,4 +65,25 @@ You'll also get:
   - What employers are looking for  
   - Best practices in data analysis
 
+## 1.2 Key roles in the data ecosystem
+#### 🔄 Summary Table of Data Roles
+
+| **Role**             | **Focus**                          | **Tools/Skills**                          | **Outcome**                           |
+|----------------------|-------------------------------------|-------------------------------------------|----------------------------------------|
+| **Data Engineer**     | Data architecture & pipelines       | Programming, databases, system design     | Usable, clean, and structured data     |
+| **Data Analyst**      | Insight generation from data        | SQL, spreadsheets, statistics, dashboards | Patterns, reports, visualized insights |
+| **Data Scientist**    | Predictive modeling & ML            | ML/DL frameworks, programming, statistics | Forecasts, automation, AI-driven insights |
+| **Business Analyst**  | Internal business interpretation    | Analytical thinking, storytelling         | Recommendations for operations         |
+| **BI Analyst**        | External forces and business trends | Dashboards, BI tools, data monitoring     | Market insights, strategy improvement  |
+
 ---
+## 1.3 Practice test
+![image](https://github.com/user-attachments/assets/aca9b46d-8aee-4ea8-8922-739f9deff531)
+![image](https://github.com/user-attachments/assets/a4a4d739-9001-401e-8ff1-6d3370e6ce5c)
+![image](https://github.com/user-attachments/assets/ba36ddd2-db22-4874-b489-89f247342cde)
+![image](https://github.com/user-attachments/assets/6f835916-f038-49bd-8959-e9650a5baec4)
+
+---
+
+## 1.4 The data analyst role
+![image](https://github.com/user-attachments/assets/c1d38116-dbc4-4566-9be1-372e2292d6e6)
