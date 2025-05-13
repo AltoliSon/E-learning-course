@@ -27,3 +27,8 @@
 
 ## 1.5 Summary and highlights
 A data analyst ecosystem includes the infrastructure, software, tools, frameworkd, and processes used to gather, clean, analyze, mine and visualize data. 
+
+## 1.6 Pratice quiz
+![image](https://github.com/user-attachments/assets/02d09616-23f2-4ac1-96c7-d269f8f60961)
+![image](https://github.com/user-attachments/assets/e2b52eb9-6b5a-48e7-9017-e1d56ac305bc)
+![image](https://github.com/user-attachments/assets/dc657eeb-4265-476a-a0ed-784811a51bde)
