@@ -87,3 +87,35 @@ You'll also get:
 
 ## 1.4 The data analyst role
 ![image](https://github.com/user-attachments/assets/c1d38116-dbc4-4566-9be1-372e2292d6e6)
+
+## 1.5 Summary and Highlights
+
+In this lesson, I have learned the following information: the roll of Data Analyst spans ocross.
+
+🧠 Role of a Data Analyst – Key Responsibilities
+- Data Acquisition: Collect relevant data for specific use cases.
+- Data Preparation & Analysis: Clean and analyze data to understand its meaning.
+- Insight Communication: Clearly present findings to stakeholders for decision-making.
+- Documentation: Record processes for future reference and reproducibility
+
+🛠️ Essential Skill Sets
+1. Technical Skills
+- Spreadsheets & statistical tools
+- Data visualization software
+- Programming (e.g., SQL, Python)
+- Working with databases & big data platforms
+2. Functional Skills
+- Statistical knowledge & analytical techniques
+- Problem-solving & critical thinking
+- Data visualization & project management
+3. Soft Skills
+- Collaboration & communication
+- Storytelling with data
+- Curiosity & intuition
+- Stakeholder engagement
+
+## 1.6 Practice test
+![image](https://github.com/user-attachments/assets/e0f9697c-de3e-493a-98ed-31860bde4dd2)
+![image](https://github.com/user-attachments/assets/f41fb85d-d8c9-4aec-9f81-28b4d001d757)
+
+  
