@@ -80,7 +80,7 @@ Designed for very large datasets. Uses distributed computing and storage. Suppor
 - Improved reporting and analysis
 - Credible data access
 - Efficient long-term storage (archiving)
-
+---
 ## 2.2 RDBMS
 ### 2.2.1 📌 What is a Relational Database?
 - A **relational database** organizes data into **tables** made of **rows (records)** and **columns (attributes)**.
@@ -131,6 +131,44 @@ Designed for very large datasets. Uses distributed computing and storage. Suppor
 - Not suitable for **semi-structured/unstructured data**
 - **Schema-dependent** during migration between systems
 - **Field length limits** may restrict large data entries
-- Less effective with **big data**, **social media**, or **multimedia formats**
-Relational databases remain the **most widely used** solution for handling **structured data**, despite limitations in handling modern, unstructured or real-time streaming data.
+Less effective with **big data**, **social media**, or **multimedia formats**. Relational databases remain the **most widely used** solution for handling **structured data**, despite limitations in handling modern, unstructured or real-time streaming data.
+---
+## 2.3 NoSQL
+### 2.3.1 📌 What is NoSQL?
+
+- **NoSQL** stands for **“Not Only SQL”**, not “No SQL”.
+- It refers to **non-relational databases** with **flexible schemas**, suitable for handling:Structured data- Semi-structured data- Unstructured data- Designed for scalability, performance, and handling **high-volume web/mobile/cloud applications**.
+
+### 2.3.2 🔢 Types of NoSQL Databases
+
+### 1. 🔑 Key-Value Stores
+- Data stored as **key-value pairs**
+- **Use cases**: Session storage, real-time recommendations, caching
+- **Examples**: Redis, Memcached, DynamoDB
+- **Limitation**: Poor for querying relationships or multiple unique keys
+
+### 2. 📄 Document-Based Databases
+- Stores entire record as a **document (e.g., JSON)**
+- **Use cases**: eCommerce, medical records, CRM, analytics
+- **Examples**: MongoDB, DocumentDB, CouchDB, Cloudant
+- **Limitation**: Limited support for complex transactions or advanced queries
+
+### 2.3.3 ⚖️ NoSQL vs. RDBMS – Key Differences
+
+| Feature                     | RDBMS                               | NoSQL                                     |
+|----------------------------|--------------------------------------|--------------------------------------------|
+| Schema                     | Fixed, predefined                    | Flexible, schema-less                      |
+| Data Types                 | Mostly structured                    | Structured, semi-structured, unstructured  |
+| Query Language             | SQL                                  | NoSQL APIs, JSON, or SQL-like languages    |
+| Scaling                    | Vertical                             | Horizontal (scale-out)                     |
+| ACID Compliance            | Fully supported                      | Partial or eventual consistency            |
+| Cost                       | Higher (often commercial)            | Lower, supports commodity hardware         |
+| Maturity                   | Long-established, well-documented    | Newer, evolving rapidly                    |
+
+### 2.3.4 🧠 Summary
+- NoSQL databases were built to overcome **limitations of relational databases**, especially in the age of **cloud computing, IoT, and big data**.
+- With diverse data models and horizontal scalability, NoSQL is ideal for **modern, large-scale, and agile systems**.
+- While RDBMS remains dominant for structured and transactional data, **NoSQL continues to grow** in importance and adoption.
+
+
 
