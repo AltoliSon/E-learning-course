@@ -171,11 +171,11 @@ Less effective with **big data**, **social media**, or **multimedia formats**. R
 - While RDBMS remains dominant for structured and transactional data, **NoSQL continues to grow** in importance and adoption.
 ---
 ## 2.4 Data marts, data lakes, ETL, and data pipelines
-## 1. Overview of Data marts, lake, warehouse.
+### 1. Overview of Data marts, lake, warehouse.
 - A data warehouse is a multi-purpose anabler of operational and performance analytics.
 ![image](https://github.com/user-attachments/assets/2614ee1b-99f3-402b-916c-bd1a5acf96a0)
 - A data lake is a storage repository that can store large amounts of structured, semi-structured, unstructured data in their native format, classified and tagged with metadata. 
-### 🗃️ Data Warehouse
+#### 🗃️ Data Warehouse
 
 - Centralized repository for **cleaned and structured data**, ready for reporting and analytics.
 - Acts as a **single source of truth**.
@@ -183,13 +183,13 @@ Less effective with **big data**, **social media**, or **multimedia formats**. R
 - Data is already **modeled and structured** before being loaded.
 - Supports both **operational** and **performance analytics**.
 
-### 🧩 Data Mart
+#### 🧩 Data Mart
 
 - A **subset** of a data warehouse tailored for **specific business units** (e.g., sales, finance).
 - Offers **isolated performance and security**.
 - Designed for **business-specific reporting and analytics**.
 
-### 🌊 Data Lake
+#### 🌊 Data Lake
 
 - Repository for storing **large volumes** of **structured, semi-structured, and unstructured data**.
 - Data is stored in its **raw native format**, tagged with metadata.
@@ -200,15 +200,15 @@ Less effective with **big data**, **social media**, or **multimedia formats**. R
   - **Advanced and predictive analytics**
   - As a **staging area** for data warehouses
 
-## 🔄 2. ETL Process (Extract, Transform, Load)
+### 🔄 2. ETL Process (Extract, Transform, Load)
 
-### 📥 Extract
+#### 📥 Extract
 - **Collect raw data** from source systems
 - Two methods:
   - **Batch Processing** (e.g., Stitch, Blendo)
   - **Stream Processing** (e.g., Apache Kafka, Samza, Storm)
 
-### 🔧 Transform
+#### 🔧 Transform
 - Clean and standardize data:
   - Unify date formats, units
   - Remove duplicates
@@ -216,7 +216,7 @@ Less effective with **big data**, **social media**, or **multimedia formats**. R
   - Apply business rules
   - Validate and relate data
 
-### 📤 Load
+#### 📤 Load
 - Move transformed data into destination:
   - **Initial Load**: Populate full dataset
   - **Incremental Load**: Apply periodic updates
@@ -224,7 +224,7 @@ Less effective with **big data**, **social media**, or **multimedia formats**. R
 - Includes **load verification** and **error recovery mechanisms**
 
 
-## 🔗 3. Data Pipelines
+### 🔗 3. Data Pipelines
 
 - A **broader concept** than ETL: end-to-end data movement from source to destination.
 - Can handle:
@@ -237,3 +237,20 @@ Less effective with **big data**, **social media**, or **multimedia formats**. R
   - **Analytics platforms**
   - **Visualization tools**
 - Popular tools: **Apache Beam**, **Google DataFlow**
+---
+## 2.5 Big Data processing Tools
+#### Summary: Big Data Tools — Hadoop, Hive, and Spark
+- **Hadoop** provides the backbone of big data storage and distributed processing.
+- **Hive** makes querying big data easier for analysts using familiar SQL-like syntax.
+- **Spark** brings speed, flexibility, and real-time analytics capabilities to the big data ecosystem.
+
+#### 🔄 Comparison Table
+
+| Feature               | Hadoop                                | Hive                                  | Spark                                |
+|-----------------------|----------------------------------------|----------------------------------------|--------------------------------------|
+| Role                  | Storage & distributed processing       | Data warehouse on Hadoop               | General-purpose data processing       |
+| Data Processing       | Batch (slow)                           | Batch (with SQL-like queries)          | Real-time + batch (very fast)        |
+| Data Storage          | HDFS                                   | HDFS / HBase                           | Uses HDFS, Hive, and more            |
+| Latency               | High                                   | High                                   | Low (real-time possible)             |
+| Query Language        | Java-based APIs                        | SQL-like (HiveQL)                      | SQL, Python, Scala, R                |
+| Use Cases             | Big data storage, cold data offload    | ETL, Reporting, Large-scale querying   | ML, stream processing, fast analytics|
