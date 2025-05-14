@@ -169,6 +169,71 @@ Less effective with **big data**, **social media**, or **multimedia formats**. R
 - NoSQL databases were built to overcome **limitations of relational databases**, especially in the age of **cloud computing, IoT, and big data**.
 - With diverse data models and horizontal scalability, NoSQL is ideal for **modern, large-scale, and agile systems**.
 - While RDBMS remains dominant for structured and transactional data, **NoSQL continues to grow** in importance and adoption.
+---
+## 2.4 Data marts, data lakes, ETL, and data pipelines
+## 1. Overview of Data marts, lake, warehouse.
+- A data warehouse is a multi-purpose anabler of operational and performance analytics.
+![image](https://github.com/user-attachments/assets/2614ee1b-99f3-402b-916c-bd1a5acf96a0)
+- A data lake is a storage repository that can store large amounts of structured, semi-structured, unstructured data in their native format, classified and tagged with metadata. 
+### 🗃️ Data Warehouse
+
+- Centralized repository for **cleaned and structured data**, ready for reporting and analytics.
+- Acts as a **single source of truth**.
+- Suitable for **large volumes** of operational data.
+- Data is already **modeled and structured** before being loaded.
+- Supports both **operational** and **performance analytics**.
+
+### 🧩 Data Mart
+
+- A **subset** of a data warehouse tailored for **specific business units** (e.g., sales, finance).
+- Offers **isolated performance and security**.
+- Designed for **business-specific reporting and analytics**.
+
+### 🌊 Data Lake
+
+- Repository for storing **large volumes** of **structured, semi-structured, and unstructured data**.
+- Data is stored in its **raw native format**, tagged with metadata.
+- Ideal when:
+  - Use cases are **not pre-defined**
+  - You want to **retain all source data**
+- Often used for:
+  - **Advanced and predictive analytics**
+  - As a **staging area** for data warehouses
+
+## 🔄 2. ETL Process (Extract, Transform, Load)
+
+### 📥 Extract
+- **Collect raw data** from source systems
+- Two methods:
+  - **Batch Processing** (e.g., Stitch, Blendo)
+  - **Stream Processing** (e.g., Apache Kafka, Samza, Storm)
+
+### 🔧 Transform
+- Clean and standardize data:
+  - Unify date formats, units
+  - Remove duplicates
+  - Enrich data (e.g., split full name)
+  - Apply business rules
+  - Validate and relate data
+
+### 📤 Load
+- Move transformed data into destination:
+  - **Initial Load**: Populate full dataset
+  - **Incremental Load**: Apply periodic updates
+  - **Full Refresh**: Replace data completely
+- Includes **load verification** and **error recovery mechanisms**
 
 
+## 🔗 3. Data Pipelines
 
+- A **broader concept** than ETL: end-to-end data movement from source to destination.
+- Can handle:
+  - **Batch data**
+  - **Streaming data**
+  - Or both (hybrid pipelines)
+- Allows **real-time processing** (e.g., sensor or traffic data)
+- Final destination can be:
+  - **Data lake**
+  - **Analytics platforms**
+  - **Visualization tools**
+- Popular tools: **Apache Beam**, **Google DataFlow**
