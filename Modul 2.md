@@ -254,3 +254,12 @@ Less effective with **big data**, **social media**, or **multimedia formats**. R
 | Latency               | High                                   | High                                   | Low (real-time possible)             |
 | Query Language        | Java-based APIs                        | SQL-like (HiveQL)                      | SQL, Python, Scala, R                |
 | Use Cases             | Big data storage, cold data offload    | ETL, Reporting, Large-scale querying   | ML, stream processing, fast analytics|
+
+---
+## 2.6 Practice quiz
+![image](https://github.com/user-attachments/assets/19ac00d5-9769-43ed-b45b-ee6df5c49290)
+![image](https://github.com/user-attachments/assets/6f0dfd00-4b28-4284-8296-9279ad1a826c)
+![image](https://github.com/user-attachments/assets/f880983b-f3c4-4392-909e-11faf97b0a97)
+![image](https://github.com/user-attachments/assets/292ff0c5-4358-4b8b-90af-cbc4772a247d)
+![image](https://github.com/user-attachments/assets/c68344fa-d4e2-42c4-bca2-e0479d0d6d23)
+![image](https://github.com/user-attachments/assets/a1a42ed8-a416-4b8e-acb0-2e955b633ed9)
