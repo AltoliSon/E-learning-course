@@ -201,3 +201,9 @@
 | Importance          | Ensures accurate, credible, and compliant analytics                          |
 | Documentation       | Tracks changes for transparency and reproducibility                          |
 
+## Pratice quiz
+![image](https://github.com/user-attachments/assets/d3ce67cc-5196-4c2b-9337-71887a2d648b)
+![image](https://github.com/user-attachments/assets/33aeabc7-276c-4949-81f9-232afb2bcf36)
+![image](https://github.com/user-attachments/assets/374e84ca-1222-4291-987d-210de1c53a9d)
+![image](https://github.com/user-attachments/assets/63c99036-7271-4cca-b395-663f9fd0c3df)
+![image](https://github.com/user-attachments/assets/49b836ba-8f93-4397-841c-d38cc160e3a0)
