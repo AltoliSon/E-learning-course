@@ -82,3 +82,55 @@ Designed for very large datasets. Uses distributed computing and storage. Suppor
 - Efficient long-term storage (archiving)
 
 ## 2.2 RDBMS
+### 2.2.1 📌 What is a Relational Database?
+- A **relational database** organizes data into **tables** made of **rows (records)** and **columns (attributes)**.
+- Tables can be **linked** using common fields (e.g., Customer ID).
+- Enables powerful **queries** to combine data across multiple tables.
+
+### 2.2.2 🧩 Key Components
+- **DBMS (Database Management System):** Software to manage, query, and maintain databases.
+- **SQL (Structured Query Language):** Standard language used for querying relational databases.
+
+### 2.2.3 📊 Relational vs. Flat Files
+| Relational DB                     | Flat File                          |
+|----------------------------------|------------------------------------|
+| Multiple linked tables           | One single table per file          |
+| Uses SQL for powerful queries    | Limited querying capability        |
+| Scalable to millions of records  | Row/column limits (e.g., Excel)    |
+| Schema enforced (structured)     | Less structured                    |
+
+### 2.2.4 🔗 Relational Structure Example
+- **Customer Table**: Contains Company ID, Name, Address, Phone
+- **Transaction Table**: Contains Transaction Date, Customer ID, Amount
+- Tables are **related by Customer ID**
+
+### 2.2.5 ✅ Advantages of RDBMS
+- **Flexibility**: Add tables/columns while running queries
+- **Data Integrity**: Minimized redundancy via normalization
+- **Backup & Recovery**: Easy exports/imports, cloud mirroring
+- **ACID Compliance**:
+  - **A**tomicity
+  - **C**onsistency
+  - **I**solation
+  - **D**urability
+
+### 2.2.6 ☁️ Popular Relational Databases
+- **On-premise**: MySQL, PostgreSQL, Oracle, Microsoft SQL Server, IBM DB2
+- **Cloud-based (DBaaS)**:
+  - Amazon RDS
+  - Google Cloud SQL
+  - Azure SQL Database
+  - Oracle Cloud, IBM DB2 on Cloud
+
+### 2.2.7 🔍 Use Cases
+- **OLTP (Online Transaction Processing)**: Fast insert/update/delete for many users
+- **OLAP (Online Analytical Processing)**: Business intelligence with historical data
+- **IoT Solutions**: Lightweight, fast querying from edge devices
+
+### 2.2.8 ⚠️ Limitations of RDBMS
+- Not suitable for **semi-structured/unstructured data**
+- **Schema-dependent** during migration between systems
+- **Field length limits** may restrict large data entries
+- Less effective with **big data**, **social media**, or **multimedia formats**
+Relational databases remain the **most widely used** solution for handling **structured data**, despite limitations in handling modern, unstructured or real-time streaming data.
+
