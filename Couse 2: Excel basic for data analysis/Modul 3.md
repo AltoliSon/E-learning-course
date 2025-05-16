@@ -32,3 +32,5 @@ use the ‘Text Import Wizard’ to import data from other formats, such as plai
 ![image](https://github.com/user-attachments/assets/f4ce08c0-6d47-458c-a1ce-f42d2b2a17e0)
 
 ![image](https://github.com/user-attachments/assets/c833e5cc-713c-4878-942b-09c19bb5c868)
+
+---
